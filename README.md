@@ -12,6 +12,8 @@ On page load, a list of sensors is mocked out and can be searched by:
 * name 
 * tags 
 * location. 
+
+---
 Most of the values on how many sensors are mocked, what tags are used and the degree of location accuracy can be 
 modified in the *constants.ts* file. Locations are randomly picked in a box bounded roughly by Minniapolis 
 on the north, Memphis in the east, San Antonio in the south and Salt Lake in the west. This is mostly to 
